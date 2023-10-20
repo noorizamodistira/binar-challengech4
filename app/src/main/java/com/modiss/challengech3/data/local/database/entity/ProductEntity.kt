@@ -18,6 +18,10 @@ data class ProductEntity(
     val desc: String,
     @ColumnInfo(name = "product_img_url")
     val productImgUrl: String
-)
+) {
+    fun toProduct(): Product {
+
+    }
+}
 
 

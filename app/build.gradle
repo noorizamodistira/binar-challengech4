@@ -4,6 +4,8 @@ plugins {
     id 'kotlin-parcelize'
     id 'androidx.navigation.safeargs'
     id("com.google.devtools.ksp")
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
 }
 
 android {
@@ -73,4 +75,8 @@ dependencies {
 
     // Fragment KTX
     implementation("androidx.fragment:fragment-ktx:1.6.1")
+
+    // Firebase
+    implementation 'com.google.firebase:firebase-crashlytics:18.5.0'
+    implementation 'com.google.firebase:firebase-analytics:21.4.0'
 }
