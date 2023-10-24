@@ -1,4 +1,4 @@
-package com.modiss.challengech3.presentation.login
+package com.modiss.challengech3.presentation.feature.login
 
 import android.os.Bundle
 import androidx.activity.viewModels

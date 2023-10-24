@@ -1,4 +1,4 @@
-package com.modiss.challengech3.presentation.detailproduct
+package com.modiss.challengech3.presentation.feature.detailproduct
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

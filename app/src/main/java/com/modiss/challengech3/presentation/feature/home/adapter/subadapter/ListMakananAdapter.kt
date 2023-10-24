@@ -1,4 +1,4 @@
-package com.modiss.challengech3
+package com.modiss.challengech3.presentation.feature.home.adapter.subadapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,6 +7,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.modiss.challengech3.Makanan
+import com.modiss.challengech3.R
 
 class ListMakananAdapter(
     private val listMakanan: ArrayList<Makanan>,

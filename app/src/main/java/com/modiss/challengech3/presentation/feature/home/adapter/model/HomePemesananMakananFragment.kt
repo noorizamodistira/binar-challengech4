@@ -1,4 +1,4 @@
-package com.modiss.challengech3.presentation.home
+package com.modiss.challengech3.presentation.feature.home.adapter.model
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,8 +8,8 @@ import android.view.ViewGroup
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.modiss.challengech3.GridMakananAdapter
-import com.modiss.challengech3.ListMakananAdapter
+import com.modiss.challengech3.presentation.feature.home.adapter.subadapter.GridMakananAdapter
+import com.modiss.challengech3.presentation.feature.home.adapter.subadapter.ListMakananAdapter
 import com.modiss.challengech3.Makanan
 import com.modiss.challengech3.R
 import com.modiss.challengech3.databinding.FragmentHomePemesananMakananBinding
