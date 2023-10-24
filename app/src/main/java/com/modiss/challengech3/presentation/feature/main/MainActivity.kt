@@ -1,4 +1,4 @@
-package com.modiss.challengech3.presentation.main
+package com.modiss.challengech3.presentation.feature.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

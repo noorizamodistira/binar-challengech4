@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homePemesananMakananFragment"
-        android:name="com.modiss.challengech3.presentation.home.HomePemesananMakananFragment"
+        android:name="com.modiss.challengech3.presentation.feature.home.adapter.model.HomePemesananMakananFragment"
         android:label="fragment_home_pemesanan_makanan"
         tools:layout="@layout/fragment_home_pemesanan_makanan" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/detailFoodFragment"
-        android:name="com.modiss.challengech3.presentation.detailproduct.DetailFoodFragment"
+        android:name="com.modiss.challengech3.presentation.feature.detailproduct.DetailFoodFragment"
         android:label="fragment_detail_food"
         tools:layout="@layout/fragment_detail_food" >
         <argument
@@ -26,7 +26,7 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.modiss.challengech3.presentation.home.HomePemesananMakananFragment"
+        android:name="com.modiss.challengech3.presentation.feature.home.adapter.model.HomePemesananMakananFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home_pemesanan_makanan" />
 
@@ -38,7 +38,7 @@
 
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="com.modiss.challengech3.presentation.profile.ProfileFragment"
+        android:name="com.modiss.challengech3.presentation.feature.profile.ProfileFragment"
         android:label="ProfileFragment"
         tools:layout="@layout/fragment_profile" />
 

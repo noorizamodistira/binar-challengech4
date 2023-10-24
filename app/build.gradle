@@ -39,6 +39,16 @@ android {
     buildFeatures {
         viewBinding = true
         dataBinding = true
+        buildConfig = true
+    }
+    flavorDimensions += "env"
+    productFlavors {
+        create("production") {
+            buildConfigField("String", "BASE_URL", "\"https://fa41ac6f-27b6-43fe-aece-9ccea36a2689.mock.pstmn.io\"")
+        }
+        create("integration") {
+            buildConfigField("String", "BASE_URL", "\"https://fa41ac6f-27b6-43fe-aece-9ccea36a2689.mock.pstmn.io\"")
+        }
     }
 }
 
@@ -79,4 +89,9 @@ dependencies {
     // Firebase
     implementation 'com.google.firebase:firebase-crashlytics:18.5.0'
     implementation 'com.google.firebase:firebase-analytics:21.4.0'
+
+    //retrofit & okhttp
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation ("com.squareup.okhttp3:okhttp:4.11.0")
 }
